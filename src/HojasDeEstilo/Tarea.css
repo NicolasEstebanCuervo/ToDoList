@@ -1,0 +1,69 @@
+.tarea_contenedor {
+  width: 500px;
+  background-color: #1b1b32;
+  margin: 1% 0;
+  padding: 14px 15px 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;    
+}
+
+.tarea_contenedor_iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Colores */
+
+.tarea_contenedor{
+  background-color: #24214E;
+}
+
+/* Texto */
+
+.tarea_texto {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+/* Icono */
+
+.tarea_icono {
+  font-size: 25px;
+  margin: auto;
+}
+
+/* Tarea Completada */
+
+.tarea_contenedor.completada {
+  background-color: #251c57;
+  text-decoration: line-through;
+}
+
+/* Responsive */
+
+@media (max-width:600px) {
+  .tarea_contenedor {
+    width: 100%;
+  }
+}
+
+@media (max-width:300px) {
+  .tarea_contenedor {
+    padding: 0.7vh 5%;
+    margin: 0;
+  }
+
+  .tarea_texto {
+    font-size: 4vw;
+  }
+
+  .tarea_icono {
+    font-size: 5vw;
+  }
+}

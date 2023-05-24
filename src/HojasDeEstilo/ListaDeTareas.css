@@ -1,0 +1,12 @@
+.tareas_lista_contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+@media (max-width:300px) {
+  .tareas_lista_contenedor{
+    margin-top: 5%;
+  }
+}
